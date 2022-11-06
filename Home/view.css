@@ -1,0 +1,23 @@
+h1.wlc{
+    animation:slidein_wlc 3s;
+}
+
+p.txt{
+	animation:slidein_txt 3s;
+}
+
+@keyframes slidein_wlc {
+	from {
+		margin-left: 130%;
+		
+	}
+
+}
+
+@keyframes slidein_txt {
+	from {
+		margin-left: 130%;
+		
+	}
+
+}

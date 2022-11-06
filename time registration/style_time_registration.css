@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+.page{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	
+}
+
+.header{	
+	padding: 10px;
+	background: rgb(82, 142, 211);
+	font-family: "Gill Sans", sans-serif;
+	font-size: 15px;
+	
+}
+
+
+.img{
+	background: url(img_time_registration/img1.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+
+
+ul.menu{
+	width: 93%;
+	min-width: 500px;
+	list-style-type: none;
+	margin: 5px;
+  	overflow: hidden;
+	display: inline-block;
+		
+}
+
+
+li{
+	float: left;
+}
+
+a{
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+li.user-photo{
+	margin-left: 15px;
+}
+li.user{
+	float:right;
+}
+li.user-photo{
+	float:right;
+}
+
+a.active{
+	background: rgb(34, 67, 128);
+	color:turquoise;
+}
+
+li a:hover{
+	color:turquoise;
+	background: rgb(34, 67, 128);
+}
+
+.main{
+	margin-left: 200px;
+	max-width: 1500px;
+	padding:40px 20px;
+	
+}
+
+
+
+div.container{
+	min-width: 500px;
+	
+	border-radius: 25px;		
+	font-family: "Gill Sans", sans-serif;
+	background: white; 		
+	border: 5px solid rgb(82, 142, 211);
+	padding:40px 60px;
+	
+
+}
+
+table {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+	
+th {
+background: #4a92ce;
+color: black;
+padding: 20px 60px;
+}
+
+td{
+padding: 20px 60px;
+background: #b5d0e7;
+}
+
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+
+td:hover{
+	background: #94bee4;
+}
+
+
+.registration{
+	width: 130px;
+	height: 40px;
+	border-radius: 15px;
+	color: black;
+	background: rgb(136, 199, 136);
+	border: 2px solid white;
+	margin-top: 30px;
+}
+
+.registration:hover{
+	background: rgb(63, 168, 63);
+	border-color: black;
+}
+
+
+.footer{
+	padding: 10px;
+	background: rgb(82, 142, 211);
+	margin-top: auto;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 15px;
+	color: white;	
+}
+
+

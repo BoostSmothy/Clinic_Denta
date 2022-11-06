@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+.page{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	
+}
+
+.header{	
+	padding: 10px;
+	background: rgb(82, 142, 211);
+	font-family: "Gill Sans", sans-serif;
+	font-size: 15px;
+	
+}
+
+
+.img{
+	background: url(img_register/img1.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+ul.menu{
+	list-style-type: none;
+	margin: 5px;
+  	overflow: hidden;
+	display: inline-block;
+		
+}
+
+li{
+	float: left;
+}
+
+li a {
+	
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;	
+	text-decoration: none;
+}
+
+a.active{
+	background: rgb(34, 67, 128);
+	color:turquoise;
+}
+
+li a:hover{
+	color:turquoise;
+	background: rgb(34, 67, 128);
+}
+
+.main{
+	margin: 0 auto;
+	max-width: 1500px;
+	padding:40px 20px;
+	font-family: "Gill Sans", sans-serif;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	-webkit-text-stroke: 3px rgba(0, 0, 0, 0.1);	
+}
+
+
+div.login{
+	background: rgb(82, 142, 211);		
+	padding:20px;
+	border-radius: 10px;
+	margin-top: 40px;
+	width: 450px;
+	height: 650px;
+	
+	
+}
+
+
+.name,
+.surname,
+.date-of-birth,
+.Password,
+.Username{
+	
+	text-transform: uppercase;
+	margin-top: 15px;
+	vertical-align: middle;
+	color: white;
+	
+}
+
+label{
+	font-size: 150%;
+	-webkit-text-stroke: 3px rgba(0, 0, 0, 0.1);	
+}
+
+input{
+	width: 380px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 15px;
+	border-color: rgb(34, 67, 128);
+}
+
+
+
+.register{
+	width: 130px;
+	height: 40px;
+	border-radius: 15px;
+	border: 2px solid rgb(34, 67, 128);
+	margin-top: 50px;
+}
+
+
+.register:hover{
+	color:turquoise;
+	background: rgb(34, 67, 128);
+}
+
+
+
+
+
+
+.footer{
+	padding: 10px;
+	background: rgb(82, 142, 211);
+	margin-top: auto;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 15px;
+	color: white;	
+}
+
+
